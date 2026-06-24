@@ -20,6 +20,18 @@ Compatibility aliases:
 - `/plan draft`, `/plan validate`, `/plan revise`, `/plan approve`, `/plan execute`, `/plan execute force`, `/plan save <name>`, `/plan tasks`, `/plan memory`
 - `/plan bug|feature|refactor|e2e|migration`
 
+## Build setup
+
+Install dev dependencies and run the TypeScript checks/build:
+
+```bash
+npm install
+npm run typecheck
+npm run build
+```
+
+The repo includes a small `types/` shim so the extension source can be checked in isolation.
+
 ## CLI
 
 ```bash
