@@ -1,6 +1,6 @@
-# Mode Manager Extension
+# Pi Mode Manager
 
-Canonical Pi mode manager for mutually exclusive modes with mode-specific tools, context, skill guidance, and a shared visual panel.
+Standalone copy of the Pi mode-manager extension, including the source, config, smoke test, and build scaffolding for local iteration.
 
 ## Commands
 
@@ -20,14 +20,13 @@ Compatibility aliases:
 - `/plan draft`, `/plan validate`, `/plan revise`, `/plan approve`, `/plan execute`, `/plan execute force`, `/plan save <name>`, `/plan tasks`, `/plan memory`
 - `/plan bug|feature|refactor|e2e|migration`
 
-## Build setup
-
-Install dev dependencies and run the TypeScript checks/build:
+## Build / validate
 
 ```bash
 npm install
 npm run typecheck
 npm run build
+npm run smoke
 ```
 
 The repo includes a small `types/` shim so the extension source can be checked in isolation.
