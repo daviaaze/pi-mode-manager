@@ -1,0 +1,28 @@
+{
+  "docsRoots": [
+    "docs",
+    "plans",
+    "."
+  ],
+  "docsExtensions": [
+    ".md",
+    ".mdx",
+    ".rst"
+  ],
+  "confirmExecuteFromModes": [
+    "ask",
+    "review",
+    "debug",
+    "deploy"
+  ],
+  "extraSafeBashPatterns": [],
+  "modeThinkingLevels": {
+    "ask": "medium",
+    "plan": "high",
+    "review": "high",
+    "debug": "high",
+    "docs": "medium",
+    "deploy": "medium",
+    "execute": "medium"
+  }
+}

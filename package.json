@@ -1,0 +1,8 @@
+{
+  "name": "pi-mode-manager",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "smoke": "./scripts/smoke-test.sh"
+  }
+}
